@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/beego/beego/v2/client/orm/internal/models"
+	"github.com/brotherbui/beego/v2/client/orm/internal/models"
 )
 
 func Test_getColumnTyp(t *testing.T) {
@@ -17,7 +17,7 @@ func Test_getColumnTyp(t *testing.T) {
 		wantCol string
 	}{
 		{
-			// https://github.com/beego/beego/issues/5254
+			// https://github.com/brotherbui/beego/issues/5254
 			name: "issue 5254",
 			fi: &models.FieldInfo{
 				FieldType: TypePositiveIntegerField,

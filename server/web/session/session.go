@@ -17,7 +17,7 @@
 // Usage:
 // import(
 //
-//	"github.com/beego/beego/v2/server/web/session"
+//	"github.com/brotherbui/beego/v2/server/web/session"
 //
 // )
 //

@@ -15,7 +15,7 @@
 package orm
 
 import (
-	"github.com/beego/beego/v2/client/orm/internal/models"
+	"github.com/brotherbui/beego/v2/client/orm/internal/models"
 )
 
 // Define the Type enum

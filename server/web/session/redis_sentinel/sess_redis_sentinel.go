@@ -21,8 +21,8 @@
 // Usage:
 // import(
 //
-//	_ "github.com/beego/beego/v2/server/web/session/redis_sentinel"
-//	"github.com/beego/beego/v2/server/web/session"
+//	_ "github.com/brotherbui/beego/v2/server/web/session/redis_sentinel"
+//	"github.com/brotherbui/beego/v2/server/web/session"
 //
 // )
 //
@@ -45,7 +45,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"github.com/beego/beego/v2/server/web/session"
+	"github.com/brotherbui/beego/v2/server/web/session"
 )
 
 var redispder = &Provider{}
